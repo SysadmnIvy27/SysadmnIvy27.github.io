@@ -2,6 +2,25 @@ body {
     background-color: #bbbbbb;
 }
 
+h1 {
+  font-size: 24px;
+  float: center;
+}
+
+h2 { 
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 20px;
+
+}
+
+p {
+  font-size: 18px;
+
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -28,7 +47,7 @@ ul li a {
 }
 
 ul li a:hover:not(.active) {
-  background-color: rgb(107, 107, 107);
+  background-color: rgb(255, 194, 137);
 }
 
 ul li a.active {
