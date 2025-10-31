@@ -21,7 +21,7 @@ p {
 
 }
 
-#nav ul {
+ul #nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -29,12 +29,12 @@ p {
   background-color: rgb(107, 107, 107);
 }
 
-#nav ul li {
+ul li #nav {
   float: left;
   border-right:1px solid #bbbbbb;
 }
 
-#nav ul li:last-child {
+ul li:last-child #nav {
   border-right: none;
 }
 
@@ -46,10 +46,10 @@ p {
   text-decoration: none;
 }
 
-#nav ul li a:hover:not(.active) {
+ul li a:hover:not(.active) #nav {
   background-color: rgb(255, 194, 137);
 }
 
-#nav ul li a.active {
+ul li a.active #nav {
   background-color: rgb(136, 197, 218);
 }
