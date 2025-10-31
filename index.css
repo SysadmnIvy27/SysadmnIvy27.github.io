@@ -21,7 +21,7 @@ p {
 
 }
 
-ul #nav {
+ul#nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -29,16 +29,16 @@ ul #nav {
   background-color: rgb(107, 107, 107);
 }
 
-ul li #nav {
+ul#nav li {
   float: left;
   border-right:1px solid #bbbbbb;
 }
 
-ul li:last-child #nav {
+ul#nav li:last-child {
   border-right: none;
 }
 
-#nav ul li a {
+ul#nav li a {
   display: block;
   color: black;
   text-align: center;
@@ -46,10 +46,10 @@ ul li:last-child #nav {
   text-decoration: none;
 }
 
-ul li a:hover:not(.active) #nav {
+ul#nav li a:hover:not(.active) {
   background-color: rgb(255, 194, 137);
 }
 
-ul li a.active #nav {
+ul#nav li a.active {
   background-color: rgb(136, 197, 218);
 }
