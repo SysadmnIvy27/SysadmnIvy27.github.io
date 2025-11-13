@@ -1,3 +1,17 @@
+img#vert {
+  width: 25vw;
+  height: 50hw;
+}
+
+img#horz {
+  width: 50vw;
+  height: 25hw;
+}
+
+fieldset{
+  border-color: black;
+}
+
 body {
     background-color: #bbbbbb;
 }
