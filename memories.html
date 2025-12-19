@@ -37,9 +37,13 @@
         <form id="comment" action="/submit">
             <fieldset>
                 <legend>Leave a Comment!</legend>
+                <label for="user">Enter your name.</label>
+                <br>
+                <input type="text" id="user" name="user" required>
+                <br>
                 <label for="comment">Message</label>
                 <br>
-                <textarea id="commentTxt" name="comment" rows="5" cols="50"></textarea>
+                <textarea id="commentTxt" name="comment" rows="5" cols="50" required></textarea>
                 <br>
                 <input type="submit" value="Post">
                 <input type="button" value="Clear Comments" onclick="clear_comments()">

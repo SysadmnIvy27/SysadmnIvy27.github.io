@@ -1,6 +1,7 @@
 const form = document.getElementById('comment');
 const commentText = document.getElementById('commentTxt');
 const commentArea = document.getElementById('comments');
+const enterUser = document.getElementById('user');
 let user = "";
 const text = commentText.value;
 let comments = [];
@@ -19,8 +20,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 form.addEventListener('submit', function(event) {
     event.preventDefault();
-
-    user = 'Augustus';
+    
+    user = enterUser
     const text = commentText.value;
     const formattedComment = '<h5>' + user + '</h5><br><p>' + text +'</p>';
     commentArea.innerHTML += formattedComment;
