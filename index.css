@@ -13,8 +13,8 @@ fieldset{
 }
 
 fieldset.comment{
-  background-color: #bbbbbb;
-  color: orange;
+  background-color: rgb(255, 194, 137);
+  color: black;
 }
 
 body {
