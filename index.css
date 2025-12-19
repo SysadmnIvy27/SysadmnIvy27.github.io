@@ -12,6 +12,11 @@ fieldset{
   border-color: black;
 }
 
+fieldset#comment{
+  background-color: #bbbbbb;
+  color: orange;
+}
+
 body {
     background-color: #bbbbbb;
 }
