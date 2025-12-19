@@ -18,7 +18,10 @@
             <h2>Gatlinburg Fall 2025</h2>
             <fieldset>
                 <img id="vert" src="Bear_Gatlinburg_2025.jpg" alt="Black bear in the woods">
-                <p>When in the mountians, there is always a chance to see black bears.</p>
+                <fieldset style="float:right">
+                    <h3></h3>
+                    <p>When in the mountians, there is always a chance to see black bears.</p>
+                </fieldset>
             </fieldset>
             <fieldset>
                 <img id="vert" style="float:right;" src="CompassPool_Gatlinburg_2025.jpg" alt="Picture of the pool at the Compass hotel from above">
@@ -30,6 +33,19 @@
             </fieldset>
             <p>Going to Gatlinburg in the fall of 2025 was an amazing trip!</p>
         </div>
+        <h3>Comments</h3>
+        <form id="comment" action="/submit" method="post">
+            <fieldset>
+                <legend>Leave a Comment!</legend>
+                <label for="comment">Message</label>
+                <br>
+                <textarea id="commentTxt" name="comment" rows="5" cols="50"></textarea>
+                <br>
+                <input type="submit" value="Post">
+            </fieldset>
+        </form>
+        <p id="comments"></p>
+        <script src="memories.js"></script>
     </body>
 
 </html>
