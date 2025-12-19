@@ -23,7 +23,7 @@ form.addEventListener('submit', function(event) {
 
     let user = enterUser.value;
     const text = commentText.value;
-    const formattedComment = '<h5>' + user + '</h5><br><p>' + text +'</p>';
+    const formattedComment = '<fieldset class="comment"><h5>' + user + '</h5><br><p>' + text +'</p></fieldset>';
     commentArea.innerHTML += formattedComment;
     comments.push(formattedComment);
     localStorage.setItem("comments", JSON.stringify(comments));
