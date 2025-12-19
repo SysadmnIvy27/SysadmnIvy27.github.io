@@ -12,7 +12,7 @@ fieldset{
   border-color: black;
 }
 
-fieldset#comment{
+fieldset.comment{
   background-color: #bbbbbb;
   color: orange;
 }
