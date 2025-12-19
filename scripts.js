@@ -33,4 +33,5 @@ form.addEventListener('submit', function(event) {
 
 function clear_comments(){
     localStorage.removeItem("comments");
+    commentArea.innerHTML = "";
 }
