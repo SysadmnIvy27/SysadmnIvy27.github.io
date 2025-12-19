@@ -20,13 +20,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 form.addEventListener('submit', function(event) {
     event.preventDefault();
-    
-    user = enterUser
+
+    let user = enterUser.value;
     const text = commentText.value;
     const formattedComment = '<h5>' + user + '</h5><br><p>' + text +'</p>';
     commentArea.innerHTML += formattedComment;
     comments.push(formattedComment);
     localStorage.setItem("comments", JSON.stringify(comments));
+    enterUser.value = "";
     commentText.value = "";
 });
 
