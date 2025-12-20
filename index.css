@@ -1,11 +1,11 @@
 img#vert {
   width: 25vw;
-  height: 50hw;
+  height: 50vh;
 }
 
 img#horz {
   width: 50vw;
-  height: 25hw;
+  height: 25vh;
 }
 
 fieldset{
@@ -23,7 +23,7 @@ body {
 
 h1 {
   font-size: 24px;
-  float: center;
+  align-content: center;
 }
 
 h2 { 
